@@ -1,7 +1,6 @@
 /*global describe, it, before, beforeEach, after, afterEach, browser: true, chai, selectnav*/
 
-var assert = chai.assert;
-
+var assert = require("chai").assert;
 var sandbox = document.createElement('div');
 sandbox.setAttribute('id', 'sandbox');
 document.body.appendChild(sandbox);
