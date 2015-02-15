@@ -74,7 +74,7 @@ module.exports = function(config) {
 
 
     preprocessors: {
-      '**/*.js': 'coverage'
+      'selectnav.js': 'coverage'
     },
   });
 };
