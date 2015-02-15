@@ -28,8 +28,13 @@ module.exports = function(config) {
 
     // test results reporter to use
     // possible values: 'dots', 'progress', 'junit', 'growl', 'coverage'
-    reporters: ['progress'],
+    reporters: ['progress', 'coverage'],
 
+
+    coverageReporter: {
+      type: 'lcovonly', // lcov or lcovonly are required for generating lcov.info files
+      dir: 'coverage/karma'
+    },
 
     // web server port
     port: 9876,

@@ -8,9 +8,12 @@
     "chai": "~2.0.0",
     "mocha": "~2.1.0",
     "karma-mocha": "~0.1.10",
-    "karma-cli": "0.0.4",
+    "karma-cli": "~0.0.4",
     "phantomjs": "~1.9.15",
-    "karma-phantomjs-launcher": "~0.1.4"
+    "karma-phantomjs-launcher": "~0.1.4",
+    "istanbul": "~0.3.5",
+    "coveralls": "~2.11.x",
+    "karma-coverage": "~0.2.7"
   },
   "scripts": {
     "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
