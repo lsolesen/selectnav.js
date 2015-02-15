@@ -13,7 +13,8 @@
     "karma-phantomjs-launcher": "~0.1.4",
     "istanbul": "~0.3.5",
     "coveralls": "~2.11.x",
-    "karma-coverage": "~0.2.7"
+    "karma-coverage": "~0.2.7",
+    "mocha-lcov-reporter": "~0.0.1"
   },
   "scripts": {
     "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
